@@ -9,6 +9,7 @@ This repository is the durable source of truth for one learner's English-learnin
 | Information | Source |
 |---|---|
 | Stable goals, level, preferences, and constraints | `profile/learner.md` |
+| Textbook facts, unit content, source coverage, and teaching tasks | `curriculum/` |
 | Current targets and study rhythm | `plans/` |
 | What actually happened in a study session | `progress/daily/` |
 | Derived totals and current skill picture | `progress/dashboard.md` |
@@ -28,6 +29,16 @@ This repository is the durable source of truth for one learner's English-learnin
 7. Prefer small, relevant updates. Preserve unrelated content and user-authored notes.
 8. Link summaries and claims back to daily records or other concrete evidence whenever possible.
 9. If required information is missing, write `待确认` or ask the learner. Do not guess.
+10. Curriculum coverage never proves learner completion. A textbook item can move into `knowledge/`, `mistakes/`, or `review/` only after learner evidence exists.
+
+## Voice-session startup
+
+1. Read `VOICE_CONTEXT.md` first.
+2. Open only the current unit and the detailed records linked from that file.
+3. State the last verified position, due reviews, and today's proposed objective before teaching.
+4. Do not claim access to a source that is marked missing, corrupt, or unverified.
+5. At session end, separate planned tasks, completed tasks, first-attempt errors, corrected answers, and review items.
+6. If the current mode cannot write the repository, produce a structured handoff instead of claiming that records were saved.
 
 ## Update workflows
 

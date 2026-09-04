@@ -1,5 +1,6 @@
 # 模板索引
 
+- [课程单元教学包](curriculum-unit.md)
 - [每日学习记录](daily.md)
 - [知识条目](knowledge-note.md)
 - [错误与薄弱点](mistake.md)
