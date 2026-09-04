@@ -18,6 +18,7 @@
 
 - [语音学习入口](VOICE_CONTEXT.md)
 - [学习者档案](profile/learner.md)
+- [2026-09-04学习者自述基线](progress/baselines/2026-09-04-self-report.md)
 - [课程内容库](curriculum/README.md)
 - [教材资料清单](curriculum/sources.md)
 - [Interchange 第五版 Level 1 课程地图](curriculum/interchange-level-1-5e/course-map.md)

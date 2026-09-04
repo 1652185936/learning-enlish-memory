@@ -11,6 +11,7 @@ This repository is the durable source of truth for one learner's English-learnin
 | Stable goals, level, preferences, and constraints | `profile/learner.md` |
 | Textbook facts, unit content, source coverage, and teaching tasks | `curriculum/` |
 | Current targets and study rhythm | `plans/` |
+| Starting self-reports and assessment evidence | `progress/baselines/` |
 | What actually happened in a study session | `progress/daily/` |
 | Derived totals and current skill picture | `progress/dashboard.md` |
 | Reusable language knowledge | `knowledge/` |
