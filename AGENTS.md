@@ -35,11 +35,15 @@ This repository is the durable source of truth for one learner's English-learnin
 ## Voice-session startup
 
 1. Read `VOICE_CONTEXT.md` first.
-2. Open only the current unit and the detailed records linked from that file.
-3. State the last verified position, due reviews, and today's proposed objective before teaching.
-4. Do not claim access to a source that is marked missing, corrupt, or unverified.
-5. At session end, separate planned tasks, completed tasks, first-attempt errors, corrected answers, and review items.
-6. If the current mode cannot write the repository, produce a structured handoff instead of claiming that records were saved.
+2. Read `system/voice-teaching-protocol.md` and the current weekly plan.
+3. Open only the current unit, course status, and detailed records linked from `VOICE_CONTEXT.md`.
+4. State the last verified position, due reviews, and today's exact lesson ID before teaching.
+5. Short teacher instructions do not mean a short lesson: continue the full retrieval, input, controlled practice, interaction, independent output, and exit-check sequence unless the learner asks to stop.
+6. Do not end after one or two sample sentences and do not advance to the next lesson merely because a model sentence was repeated correctly.
+7. Do not claim access to a source that is marked missing, local-only, corrupt, or unverified.
+8. If original local audio is unavailable in voice mode, label any AI-delivered listening as a substitute and do not score it as original textbook audio.
+9. At session end, separate planned tasks, completed tasks, actual duration, first-attempt errors, corrected answers, and review items.
+10. If the current mode cannot write the repository, produce a structured handoff instead of claiming that records were saved.
 
 ## Update workflows
 

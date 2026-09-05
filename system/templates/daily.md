@@ -2,7 +2,12 @@
 date: YYYY-MM-DD
 timezone: Asia/Dubai
 status: planned
+course_id: COURSE-ID
+lesson_id: COURSE-ID-UNN-DN
+planned_duration_minutes: 0
 duration_minutes: 0
+counts_as_study_session: false
+audio_mode: original | substitute | none | not_used
 ---
 
 # 每日学习记录 — YYYY-MM-DD
@@ -15,9 +20,16 @@ duration_minutes: 0
 
 待确认。只有真实完成的内容才写在这里。
 
+- 实际教材页码：待确认
+- 实际音频/测评：待确认
+- 实际时长：待确认
+
 ## 学习证据
 
-练习答案、写作、口语转写、录音说明、分数或其他实际产出。
+- 首次答案或表现：
+- 提示程度：
+- 订正结果：
+- 独立输出、写作、录音说明或分数：
 
 ## 新知识
 
@@ -39,6 +51,9 @@ duration_minutes: 0
 ## 下一步
 
 待根据实际结果填写。
+
+- 下一课次：
+- 下一复习日期：
 
 ## 修正记录
 

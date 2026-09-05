@@ -7,11 +7,14 @@
 ## 当前状态
 
 - 系统初始化日期：2026-09-04
+- 教材与正式计划最近更新：2026-09-05
 - 时区：Asia/Dubai
-- 学习者档案：待确认
+- 学习者档案：核心目标已记录，雅思细分目标待确认
 - 英语基线水平：待确认
 - 已确认学习次数：0
 - 已确认学习时长：0 分钟
+- 当前课程：Interchange Fifth Edition Intro，已排程、尚未开始
+- 下一计划课次：2026-09-07 `IC5-L0-U01-D1`
 - 所有未知信息都会保留为“待确认”，不会凭空填写。
 
 ## 导航
@@ -21,11 +24,19 @@
 - [2026-09-04学习者自述基线](progress/baselines/2026-09-04-self-report.md)
 - [课程内容库](curriculum/README.md)
 - [教材资料清单](curriculum/sources.md)
+- [音频与测评资源映射](curriculum/resources-audio-assessment.md)
+- [Interchange 第五版 Intro 课程地图](curriculum/interchange-intro-5e/course-map.md)
 - [Interchange 第五版 Level 1 课程地图](curriculum/interchange-level-1-5e/course-map.md)
+- [Interchange 第五版 Level 2 课程地图](curriculum/interchange-level-2-5e/course-map.md)
+- [Interchange 第五版 Level 3 课程地图](curriculum/interchange-level-3-5e/course-map.md)
 - [年度计划](plans/yearly.md)
+- [计划索引](plans/README.md)
 - [本月计划](plans/monthly/2026-09.md)
-- [本周计划](plans/weekly/2026-W36.md)
+- [本周计划](plans/weekly/2026-W37.md)
+- [Intro 74次核心课推进计划](plans/courses/interchange-intro-5e.md)
+- [通往C2与雅思的长期路线](plans/roadmap-to-c2-ielts.md)
 - [进度总览](progress/dashboard.md)
+- [Intro课程学习状态](progress/courses/interchange-intro-5e.md)
 - [每日记录说明](progress/daily/README.md)
 - [第一个里程碑](progress/milestones/milestone-001.md)
 - [知识库索引](knowledge/README.md)
@@ -33,6 +44,7 @@
 - [复习日志](review/review-log.md)
 - [已掌握内容](review/mastered.md)
 - [系统规则](system/rules.md)
+- [语音教学执行协议](system/voice-teaching-protocol.md)
 - [记录模板](system/templates/README.md)
 - [系统变更记录](system/changelog.md)
 
@@ -46,11 +58,13 @@
 
 ## 工作流程
 
-1. 语音学习先读取 `VOICE_CONTEXT.md`，再读取其中指定的当前单元。
+1. 语音学习先读取 `VOICE_CONTEXT.md`和语音教学协议，再读取其中指定的当前课次与单元。
 2. 读取学习者档案、当前计划、进度、到期复习项、未解决错误和最近的每日记录。
 3. 只记录对话或学习材料中真实出现的内容。
 4. 将新知识放入知识库，将错误放入对应错误记录，并安排必要的复习。
 5. 完成学习后更新每日记录和进度总览；仅有计划时不计为已完成。
 6. 阶段结束后用可追溯的学习证据生成总结，再调整下一阶段计划。
+
+教材PDF、音频、答案和测评不提交到本仓库；这里保存经核验的单元内容、精确页码、资源映射、执行计划和真实学习证据。语音模式若无法访问学习者电脑中的原始文件，必须明确使用替代活动，不能假装播放过原音频。
 
 详细的数据来源和更新约束见 [AGENTS.md](AGENTS.md) 与 [system/rules.md](system/rules.md)。

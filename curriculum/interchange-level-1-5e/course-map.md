@@ -6,16 +6,18 @@
 - 课程结构：16个单元；每两个单元一次 Progress Check
 - 课程资料状态：`partial`
 - 学习者状态：`no_evidence`
-- 最近核验：2026-09-04
+- 最近核验：2026-09-05
 
 ## 已核验来源
 
 - `SRC-IC5-L1-SB`：第五版学生用书，Units 1-16核心页面完整。
 - `SRC-IC5-L1-TB`：第五版教师用书，含教学说明、答案、语言总结、音频原文和练习册答案。
 - `SRC-IC5-L1A-WB`：第五版1A练习册，只覆盖Units 1-8。
+- `SRC-IC5-L1-AUDIO`：第五版Classroom Audio，152个可播放MP3，覆盖Units 1-16及8次Progress Check。
+- `SRC-IC5-L1-ASSESS`：第五版Assessment，含口试、8组双单元Written Quiz及两组半册A/B测试。
 - `SRC-IC4-L1-VRB`：第四版Level 1视频资源书，只作主题补充。
 
-完整性与损坏信息见[教材资料清单](../sources.md)。
+完整性与缺口信息见[教材资料清单](../sources.md)。
 学习者的独立状态见[Level 1学习状态](../../progress/courses/interchange-level-1-5e.md)。
 
 ## 语音可用的16单元内容概览
@@ -25,21 +27,21 @@
 | 单元 | 标题 | 可直接教学的核心内容 | 工作场景迁移 | 详细包 |
 |---|---|---|---|---|
 | 1 | Where are you from? | 问候、自我介绍、国家和国籍；`be`、Wh问句、主格代词、物主形容词；连读 | 第一次见同事、介绍团队成员、确认姓名与来源 | [Unit 1](units/unit-01.md) |
-| 2 | What do you do? | 职业、工作地点和日程；一般现在时、`do/does`、时间介词；词重音 | 介绍岗位职责、公司和工作时间 | 待建立 |
-| 3 | How much are these? | 价格、衣物、颜色和材质；指示词、`one/ones`、比较级；句子重音 | 询价、比较设备或办公用品、说明采购偏好 | 待建立 |
+| 2 | What do you do? | 职业、工作地点和日程；一般现在时、`do/does`、时间介词；词重音 | 介绍岗位职责、公司和工作时间 | [Unit 2](units/unit-02.md) |
+| 3 | How much are these? | 价格、衣物、颜色和材质；指示词、`one/ones`、比较级；句子重音 | 询价、比较设备或办公用品、说明采购偏好 | [Unit 3](units/unit-03.md) |
 | 4 | Do you play the guitar? | 音乐影视偏好、邀请和婉拒；`do/does`问句、宾格代词、`would like to`；问句语调 | 同事寒暄、发出邀请、礼貌拒绝并确认安排 | [Unit 4](units/unit-04.md) |
-| 5 | What an interesting family! | 家庭关系和当前活动；现在进行时、一般现在时、数量概括；陈述句语调 | 说明团队关系以及成员当前职责 | 待建立 |
-| 6 | How often do you run? | 运动、习惯、频率和能力；频率副词、`how often/long/well/good` | 描述工作习惯、培训频率和技能熟练度 | 待建立 |
-| 7 | We went dancing! | 周末、旅行和过去事件；一般过去时、`did`、`was/were` | 汇报昨天工作、会议或出差经历 | 待建立 |
-| 8 | How's the neighborhood? | 社区设施、方位和数量；`there is/are`、`some/any`、可数/不可数名词 | 介绍办公室位置、附近设施和访客路线 | 待建立 |
-| 9 | What does she look like? | 外貌和人物识别；`look like`、how问句、分词及介词短语修饰 | 向前台或会议组织者客观识别访客 | 待建立 |
-| 10 | Have you ever been there? | 人生经历和持续时间；现在完成时、一般过去时、`for/since/already/yet` | 说明项目和技术经验、已完成与未完成事项 | 待建立 |
-| 11 | It's a really nice city. | 城市、家乡和旅行建议；程度副词、连接词、`can/should` | 向新同事介绍办公城市和来访建议 | 待建立 |
-| 12 | It's important to get rest. | 健康问题、药店用品和建议；不定式、`should/could`、礼貌请求 | 说明不适、请求帮助和给出一般安全建议 | 待建立 |
-| 13 | What would you like? | 食物、偏好和点餐；`so/too/neither/either`、`would/will`请求 | 商务午餐、说明饮食偏好、确认同事意见 | 待建立 |
-| 14 | It's the coldest city! | 地理特征、距离和测量；比较级、最高级和how问句 | 比较地点、面积、距离或工作指标 | 待建立 |
-| 15 | What are you doing later? | 未来安排、邀请和电话留言；现在进行时、`going to`、`tell/ask` | 预约会议、转达电话和处理日程冲突 | 待建立 |
-| 16 | How have you changed? | 人生变化、职业目标和未来计划；时态综合、比较表达、不定式 | 讲述职业成长并说明下一阶段目标 | 待建立 |
+| 5 | What an interesting family! | 家庭关系和当前活动；现在进行时、一般现在时、数量概括；陈述句语调 | 说明团队关系以及成员当前职责 | [Unit 5](units/unit-05.md) |
+| 6 | How often do you run? | 运动、习惯、频率和能力；频率副词、`how often/long/well/good` | 描述工作习惯、培训频率和技能熟练度 | [Unit 6](units/unit-06.md) |
+| 7 | We went dancing! | 周末、旅行和过去事件；一般过去时、`did`、`was/were` | 汇报昨天工作、会议或出差经历 | [Unit 7](units/unit-07.md) |
+| 8 | How's the neighborhood? | 社区设施、方位和数量；`there is/are`、`some/any`、可数/不可数名词 | 介绍办公室位置、附近设施和访客路线 | [Unit 8](units/unit-08.md) |
+| 9 | What does she look like? | 外貌和人物识别；`look like`、how问句、分词及介词短语修饰 | 向前台或会议组织者客观识别访客 | [Unit 9](units/unit-09.md) |
+| 10 | Have you ever been there? | 人生经历和持续时间；现在完成时、一般过去时、`for/since/already/yet` | 说明项目和技术经验、已完成与未完成事项 | [Unit 10](units/unit-10.md) |
+| 11 | It's a really nice city. | 城市、家乡和旅行建议；程度副词、连接词、`can/should` | 向新同事介绍办公城市和来访建议 | [Unit 11](units/unit-11.md) |
+| 12 | It's important to get rest. | 健康问题、药店用品和建议；不定式、`should/could`、礼貌请求 | 说明不适、请求帮助和给出一般安全建议 | [Unit 12](units/unit-12.md) |
+| 13 | What would you like? | 食物、偏好和点餐；`so/too/neither/either`、`would/will`请求 | 商务午餐、说明饮食偏好、确认同事意见 | [Unit 13](units/unit-13.md) |
+| 14 | It's the coldest city! | 地理特征、距离和测量；比较级、最高级和how问句 | 比较地点、面积、距离或工作指标 | [Unit 14](units/unit-14.md) |
+| 15 | What are you doing later? | 未来安排、邀请和电话留言；现在进行时、`going to`、`tell/ask` | 预约会议、转达电话和处理日程冲突 | [Unit 15](units/unit-15.md) |
+| 16 | How have you changed? | 人生变化、职业目标和未来计划；时态综合、比较表达、不定式 | 讲述职业成长并说明下一阶段目标 | [Unit 16](units/unit-16.md) |
 
 ## 学生用书和教师用书页码
 
@@ -75,9 +77,9 @@
 | 13-14 | 98-99 | 148-149 | 无证据 |
 | 15-16 | 112-113 | 166-167 | 无证据 |
 
-## 待匹配的实际音频
+## 已核验的实际音频
 
-教师用书提供脚本和轨道编号，但目前没有音频文件。
+`Interchange 1 Level Classroom Audio.zip`含152个可播放MP3，约174.2分钟，覆盖Units 1-16和全部8次Progress Check。文件名直接包含`IC5_L1 + Unit + Pg + Ex + Part`，教学时优先按文件名和学生书印刷页定位；下表保留教师书的CD轨号作为交叉核对。
 
 | 单元 | 教师用书标注的轨道 |
 |---|---|
@@ -111,6 +113,6 @@
 ## 当前限制
 
 - 此处记录的是教材事实，不是学习记录。
-- 实际Class Audio、第五版视频、Assessment Program和Presentation Plus尚未收到。
+- 第五版Class Audio和Assessment Program已核验；Presentation Plus及第五版实际视频仍未收到。
 - 1A练习册只能为Units 1-8提供题面；Units 9-16只有教师书中的答案，不能据答案反推完整题面。
 - 所有单元的学习者状态保持`no_evidence`，直到出现真实练习、录音或测评。
