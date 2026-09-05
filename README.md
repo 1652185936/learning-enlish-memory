@@ -26,6 +26,7 @@
 - [教材资料清单](curriculum/sources.md)
 - [音频与测评资源映射](curriculum/resources-audio-assessment.md)
 - [Interchange 第五版 Intro 课程地图](curriculum/interchange-intro-5e/course-map.md)
+- [Interchange 第五版 Intro 听力内容参考库](curriculum/interchange-intro-5e/listening/README.md)
 - [Interchange 第五版 Level 1 课程地图](curriculum/interchange-level-1-5e/course-map.md)
 - [Interchange 第五版 Level 2 课程地图](curriculum/interchange-level-2-5e/course-map.md)
 - [Interchange 第五版 Level 3 课程地图](curriculum/interchange-level-3-5e/course-map.md)
@@ -65,6 +66,6 @@
 5. 完成学习后更新每日记录和进度总览；仅有计划时不计为已完成。
 6. 阶段结束后用可追溯的学习证据生成总结，再调整下一阶段计划。
 
-教材PDF、音频、答案和测评不提交到本仓库；这里保存经核验的单元内容、精确页码、资源映射、执行计划和真实学习证据。语音模式若无法访问学习者电脑中的原始文件，必须明确使用替代活动，不能假装播放过原音频。
+教材PDF、音频、原始答案册和完整测评文件不提交到本仓库；这里保存经核验的单元内容、精确页码、资源映射、执行计划和真实学习证据。内容卡可保留约束AI所必需的最小固定事实或答案，但不复制完整脚本或答案文件。本学习者不查找、打开、播放或上传本地MP3。教材听力必须先选择内容卡中已核验的`listening_ref`，AI语音只能依照其中的内容顺序和固定事实重现，不得新增、删减或改变姓名、拼写、数字、地点、事件、答案性细节或答案；记录为`audio_mode: source_grounded_ai`并同时保存`listening_ref`和`source_verification`。这不是出版社原录音；缺少已核验引用时记录`audio_mode: none`，不执行、不评分。
 
 详细的数据来源和更新约束见 [AGENTS.md](AGENTS.md) 与 [system/rules.md](system/rules.md)。

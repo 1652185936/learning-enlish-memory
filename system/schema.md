@@ -83,9 +83,17 @@
 
 ## 音频模式
 
+本学习者不操作本地MP3。教材或Assessment听力只有在选定已核验`listening_ref`后，才可由AI语音呈现。每日记录必须同时保存：
+
+- `listening_ref`：指向当前单元听力内容卡中的稳定引用；
+- `source_verification`：该内容卡的核验状态；
+- `audio_mode`：实际采用的呈现方式。
+
+`source_verification`只有`asr_script_verified`、`asr_print_verified`和`asr_answer_verified`允许用于教材听力；`asr_unverified`与`not_processed`均不可使用。若缺少已核验引用，`audio_mode`必须为`none`且不得评分。
+
 | 值 | 含义 |
 |---|---|
-| `original` | 实际播放了已核验的教材或Assessment原音频 |
-| `substitute` | 使用教师/AI朗读或角色扮演替代，不能计为原教材听力成绩 |
-| `none` | 当次无法进行听力 |
+| `original` | 历史兼容值：实际播放了已核验的教材或Assessment原音频；本学习者当前计划不使用 |
+| `source_grounded_ai` | AI语音依照已核验`listening_ref`中的内容顺序和固定事实重现；不得新增、删减或改变姓名、拼写、数字、地点、事件、答案性细节、答案或先后关系；这不是出版社原录音 |
+| `none` | 没有可用的已核验`listening_ref`，听力不执行且不评分 |
 | `not_used` | 该课次没有安排音频 |

@@ -36,16 +36,17 @@ learner_status: no_evidence
 
 | 课次 | 教材页 | 60分钟推进 | 当堂证据 |
 |---|---|---|---|
-| `IC5-L0-U04-D1` | SB印刷22-23 / PDF28-29 | 8分钟U3提取；12分钟衣物/颜色；15分钟原版音频首听；15分钟描述人物；10分钟无稿指出衣物 | 首听衣物/颜色结果；无稿描述；未知词 |
-| `IC5-L0-U04-D2` | SB印刷24 / PDF30 | 8分钟提取；17分钟所有格系统与`whose`；10分钟控制练习；10分钟`s/sh`听辨；10分钟替换问答；5分钟出口任务 | 首次答案与订正；3组所有者问答；发音记录 |
-| `IC5-L0-U04-D3` | SB印刷25-26 / PDF31-32 | 8分钟提取；12分钟天气/季节/当前活动；15分钟进行时细听；15分钟图像信息差；10分钟少提示描述 | 首听动作结果；天气短句；少提示描述转写 |
-| `IC5-L0-U04-D4` | SB印刷27 / PDF33 | 10分钟间隔提取；15分钟末页综合；10分钟Grammar Plus U4；10分钟WB精选；10分钟官方U4口试；5分钟记录 | WB首次结果；衣物问题短写；口试五维分；复习日期 |
+| `IC5-L0-U04-D1` | SB印刷22-23 / PDF28-29 | 8分钟U3提取；12分钟衣物/颜色；15分钟依据`IC5-L0-U04-A01`、`IC5-L0-U04-A02`、`IC5-L0-U04-A04`由AI按卡内顺序呈现并首听（`audio_mode: source_grounded_ai`）；15分钟描述人物；10分钟无稿指出衣物 | 首听衣物/颜色结果及所用`listening_ref`；无稿描述；未知词 |
+| `IC5-L0-U04-D2` | SB印刷24 / PDF30 | 8分钟提取；17分钟依据`IC5-L0-U04-A05`学习所有格系统与`whose`；10分钟依据`IC5-L0-U04-A06`做人物衣着顺序听力；10分钟依据`IC5-L0-U04-A03`做`s/sh`听辨；10分钟替换问答；5分钟出口任务 | 首次答案与订正；所用`listening_ref`；3组所有者问答；发音记录 |
+| `IC5-L0-U04-D3` | SB印刷25-26 / PDF31-32 | 8分钟提取；12分钟依据`IC5-L0-U04-A07`学习天气/季节；15分钟依据`IC5-L0-U04-A08`、`IC5-L0-U04-A09`做当前动作细听（`source_grounded_ai`）；15分钟图像信息差；10分钟少提示描述 | 首听天气/动作结果及`listening_ref`；天气短句；少提示描述转写 |
+| `IC5-L0-U04-D4` | SB印刷27 / PDF33 | 10分钟依据`IC5-L0-U04-A10`复习进行时问句并用`IC5-L0-U04-A11`做派对人物衣着首听；15分钟末页综合；10分钟Grammar Plus U4；10分钟WB精选；10分钟官方U4口试；5分钟记录 | `IC5-L0-U04-A10`、`IC5-L0-U04-A11`首听及核对轮；WB首次结果；衣物问题短写；口试五维分；复习日期 |
 
 ## 测评位置
 
 - 单元口试：`IC5_Intro_OQ_Question_Bank.pdf`的Unit 4分区；使用`IC5_Intro_OQ_Scoring_Sheet.pdf`。
-- 双单元检查：SB U3-4 Progress Check及`IC5_L0_Unit 03-04 PC`。
-- 双单元书面测验：`Intro Written_Quiz_U3-4/IC5_Intro_WQ_U3to4.pdf`与同文件夹MP3 Track02；首次完成后才核对答案。
+- 单元内听力检查：依据`IC5-L0-U04-A06`和`IC5-L0-U04-A11`由AI按内容卡呈现，记录`audio_mode: source_grounded_ai`、`listening_ref`和`source_verification`；结果只代表来源约束的AI练习。
+- 双单元检查：SB U3-4 Progress Check使用[已核验PC内容卡](../listening/progress-checks.md)中的`IC5-L0-PC03-04-A01`，记录`audio_mode: source_grounded_ai`、`listening_ref`和`source_verification`；首次作答后再核对答案，不得把AI呈现记为出版社原音频成绩。
+- 双单元书面测验：`Intro Written_Quiz_U3-4/IC5_Intro_WQ_U3to4.pdf`的Track02目前只有[Assessment配对元数据](../listening/assessment-audio-index.md)中的`IC5-L0-WQ03-04-A01`，没有公开可呈现的内容卡；听力部分记`audio_mode: none`并跳过、不评分。
 
 ## 个性化工作场景迁移（非教材原文）
 
@@ -53,7 +54,7 @@ learner_status: no_evidence
 
 ## 必须保存的学习证据
 
-- 原版音频首听中的衣物、颜色和动作结果。
+- AI来源约束听力首遍的衣物、颜色、天气和动作结果；每次记录`audio_mode: source_grounded_ai`、具体`listening_ref`和其`source_verification`。
 - 一段无稿人物描述和一轮失物所有者问答。
 - 控制练习、WB、U3-4 Progress Check及Written Quiz首次结果与订正。
 - Unit 4官方口试五维原始分。

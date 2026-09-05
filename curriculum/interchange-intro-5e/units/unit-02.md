@@ -36,16 +36,17 @@ learner_status: no_evidence
 
 | 课次 | 教材页 | 60分钟推进 | 当堂证据 |
 |---|---|---|---|
-| `IC5-L0-U02-D1` | SB印刷8-9 / PDF14-15 | 8分钟U1提取；12分钟物品词汇；15分钟原版音频首听；15分钟识物问答；10分钟无稿描述手边物品 | 首听物品清单；无稿命名录音/转写；未知词 |
-| `IC5-L0-U02-D2` | SB印刷10 / PDF16 | 8分钟提取；17分钟冠词、指示词、代词和复数；10分钟控制练习；10分钟复数`-s`；10分钟替换问答；5分钟出口任务 | 首次答案与订正；3组单复数句；发音记录 |
-| `IC5-L0-U02-D3` | SB印刷11-12 / PDF17-18 | 8分钟提取；12分钟房间/位置输入；15分钟位置音频细听；15分钟图示信息差；10分钟少提示找物对话 | 首听位置结果；位置图短写；少提示对话 |
-| `IC5-L0-U02-D4` | SB印刷13 / PDF19 | 10分钟间隔提取；15分钟末页综合；10分钟Grammar Plus U2；10分钟WB精选；10分钟官方U2口试；5分钟记录 | WB首次结果；房间位置短写；口试五维分；复习日期 |
+| `IC5-L0-U02-D1` | SB印刷8-9 / PDF14-15 | 8分钟U1提取；12分钟物品词汇；15分钟依据`IC5-L0-U02-A01`、`IC5-L0-U02-A02`、`IC5-L0-U02-A03`由AI按卡内顺序呈现并首听（`audio_mode: source_grounded_ai`）；15分钟识物问答；10分钟无稿描述手边物品 | 首听物品清单及所用`listening_ref`；无稿命名录音/转写；未知词 |
+| `IC5-L0-U02-D2` | SB印刷10 / PDF16 | 8分钟提取；17分钟冠词、指示词、代词和复数；10分钟控制练习；10分钟依据`IC5-L0-U02-A04`、`IC5-L0-U02-A05`做复数`-s`听辨；10分钟依据`IC5-L0-U02-A06`、`IC5-L0-U02-A07`替换问答；5分钟出口任务 | 首次答案与订正；所用`listening_ref`；3组单复数句；发音记录 |
+| `IC5-L0-U02-D3` | SB印刷11-12 / PDF17-18 | 8分钟提取；12分钟房间/位置输入；15分钟依据`IC5-L0-U02-A08`、`IC5-L0-U02-A09`、`IC5-L0-U02-A10`、`IC5-L0-U02-A11`、`IC5-L0-U02-A12`做问答与位置细听（`source_grounded_ai`）；15分钟图示信息差；10分钟少提示找物对话 | `IC5-L0-U02-A12`首听位置结果及全部所用`listening_ref`；位置图短写；少提示对话 |
+| `IC5-L0-U02-D4` | SB印刷13 / PDF19 | 10分钟依据`IC5-L0-U02-A03`、`IC5-L0-U02-A08`、`IC5-L0-U02-A12`间隔提取；15分钟末页综合；10分钟Grammar Plus U2；10分钟WB精选；10分钟官方U2口试；5分钟记录 | 所用`listening_ref`及提取结果；WB首次结果；房间位置短写；口试五维分；复习日期 |
 
 ## 测评位置
 
 - 单元口试：官方口试题库`IC5_Intro_OQ_Question_Bank.pdf`的Unit 2分区；使用`IC5_Intro_OQ_Scoring_Sheet.pdf`。
-- 双单元检查：SB U1-2 Progress Check及其PC音频。
-- 双单元书面测验：`Intro Written_Quiz_U1-2/IC5_Intro_WQ_U1to2.pdf`与同文件夹MP3 Track01；首次作答后才能打开答案。
+- 单元内听力检查：依据`IC5-L0-U02-A12`由AI按内容卡呈现，记录`audio_mode: source_grounded_ai`、`listening_ref`和`source_verification`；只能记为来源约束的AI练习结果，不能记为出版社原音频成绩。
+- 双单元检查：SB U1-2 Progress Check使用[已核验PC内容卡](../listening/progress-checks.md)中的`IC5-L0-PC01-02-A01`，记录`audio_mode: source_grounded_ai`、`listening_ref`和`source_verification`；首次作答后再核对答案，不得把AI呈现记为出版社原音频成绩。
+- 双单元书面测验：`Intro Written_Quiz_U1-2/IC5_Intro_WQ_U1to2.pdf`的Track01目前只有[Assessment配对元数据](../listening/assessment-audio-index.md)中的`IC5-L0-WQ01-02-A01`，没有公开可呈现的内容卡；听力部分记`audio_mode: none`并跳过、不评分。
 
 ## 个性化工作场景迁移（非教材原文）
 
@@ -53,7 +54,7 @@ learner_status: no_evidence
 
 ## 必须保存的学习证据
 
-- 原版音频首听中识别出的物品/位置与后续核对。
+- AI来源约束听力首遍识别出的物品/位置及后续核对；每次记录`audio_mode: source_grounded_ai`、具体`listening_ref`和其`source_verification`。
 - 一轮无稿找物对话；一段房间或桌面位置描述。
 - 控制练习、WB和U1-2 Written Quiz的首次分项结果与订正。
 - Unit 2口试五维原始分和U1-2 Progress Check结果。

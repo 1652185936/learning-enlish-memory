@@ -23,13 +23,15 @@
 - 优先技能：面对面交流压力最大，建议优先验证相关口语；工作消息读写也是高频需求；具体技能排序待确认。
 - 感兴趣的话题：待确认
 - 喜欢的学习方式：计划使用 ChatGPT 语音模式学习，并要求跨对话延续真实进度。
-- 不喜欢或难以坚持的方式：待确认
+- 听力提供方式：学习者不查找、打开、播放或上传本地MP3；教材听力由AI语音直接呈现，但每项活动必须先选用内容卡中已核验的`listening_ref`。
+- 音频证据边界：AI只能依照该内容卡的内容顺序和固定事实重现，不得新增、删减或改变姓名、拼写、数字、地点、事件、答案性细节或答案。记录`audio_mode: source_grounded_ai`、`listening_ref`和`source_verification`，不得称为出版社原录音或计入原音频成绩；没有已核验引用时记录`audio_mode: none`，不执行、不评分。本地音频清单仅作核验来源与活动映射索引。
+- 不喜欢或难以坚持的方式：不希望在学习过程中操作本地音频文件；其他待确认。
 
 ## 约束与环境
 
 - 时区：Asia/Dubai
 - 常用设备：电脑与手机；计划使用 ChatGPT 语音模式。
-- 可使用的材料或课程：从 Interchange Fifth Edition Intro 开始。Intro的学生书、教师书、完整练习册、Classroom Audio和Assessment已核验；Level 1学生书及全套教师资源可用但练习册仅1A；Level 2/3教师书与音频/测评可用，学生书和练习册仅A半册；现有Video Resource Book均为第四版且无视频本体。详见 `../curriculum/sources.md`。
+- 可使用的材料或课程：从 Interchange Fifth Edition Intro 开始。Intro的学生书、教师书、完整练习册及186张课堂/PC听力内容卡可用于教学；Assessment仅有配对元数据，听力不可呈现。Level 1学生书及全套教师源文件已核验但练习册仅1A；Level 2/3教师书与音频/测评源文件已核验，学生书和练习册仅A半册。Level 1-3尚无逐轨听力内容卡，统一保持`audio_mode: none`；现有Video Resource Book均为第四版且无视频本体。详见 `../curriculum/sources.md`。
 - 其他限制：待确认
 
 ## 重要边界

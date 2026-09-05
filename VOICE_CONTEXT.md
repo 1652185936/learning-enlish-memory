@@ -17,6 +17,8 @@
 - 常用英语场景：工作消息读写、与朋友交流、购物。
 - 当前压力最大的场景：面对面交流（学习者自述）。
 - 时间意愿：原计划每日约60分钟对话练习；当前正式排程为周一至周六60分钟核心课、周日缓冲。
+- 听力偏好：学习者不查找、打开、播放或上传任何本地MP3；教材听力由AI语音直接呈现，但必须先选用当前单元内容卡中已核验的`listening_ref`。
+- 听力来源与记录：AI只能依照内容卡中的内容顺序和固定事实重现，不得新增、删减或改变姓名、拼写、数字、地点、事件、答案性细节或答案。记录`audio_mode: source_grounded_ai`、`listening_ref`和`source_verification`，并明确这不是出版社原录音；没有已核验引用时记录`audio_mode: none`，不执行、不评分。本地音频仅作内容卡核验来源和只读索引。
 - 已提供的短样本：`My goal is to speak English better at work.`；`Hi, how are you today? Good, thanks.`
 - 证据边界：只有自述和两条短文本，没有无提示口语、录音或综合测评，不能据此判定CEFR。
 - 详细记录：[2026-09-04学习者自述基线](progress/baselines/2026-09-04-self-report.md)。
@@ -42,14 +44,15 @@
 - 下一课计划记录：[2026-09-07](progress/daily/2026/2026-09-07.md)，状态为`planned`、完成时长为0。
 - 全程计划：[Intro 74次核心课](plans/courses/interchange-intro-5e.md)。
 - 当前单元：[Intro Unit 1](curriculum/interchange-intro-5e/units/unit-01.md)。
+- 当前听力内容卡：[Intro Unit 1 listening references](curriculum/interchange-intro-5e/listening/unit-01.md)。
 - 课程状态表：[Intro学习状态](progress/courses/interchange-intro-5e.md)。
 
 ## 当前教材状态
 
-- Intro：第五版学生书、教师书、完整练习册、186个Classroom Audio MP3，以及覆盖Units 1-16的Assessment包已核验，可正式开课。
-- Level 1：第五版完整学生书/教师书、152个音频及Assessment可用；练习册只有Units 1-8。
-- Level 2：教师书、全级音频及Assessment可用；当前学生书/练习册是正常2A半册，只覆盖Units 1-8，仍缺2B。
-- Level 3：教师书、全级音频及Assessment可用；当前学生书/练习册是正常3A半册，只覆盖Units 1-8，仍缺3B。
+- Intro：第五版学生书、教师书和完整练习册可用于教学；186个Classroom Audio MP3均已有核验内容卡，可按`source_grounded_ai`执行。Assessment源文件虽已核验，但公开仓库只有配对元数据，其听力仍不可呈现。
+- Level 1：第五版完整学生书/教师书及音频、Assessment源文件已核验，练习册只有Units 1-8；尚未建立逐轨内容卡，听力保持`audio_mode: none`。
+- Level 2：教师书、全级音频及Assessment源文件已核验；当前学生书/练习册是正常2A半册，只覆盖Units 1-8，仍缺2B；尚未建立逐轨内容卡，听力保持`audio_mode: none`。
+- Level 3：教师书、全级音频及Assessment源文件已核验；当前学生书/练习册是正常3A半册，只覆盖Units 1-8，仍缺3B；尚未建立逐轨内容卡，听力保持`audio_mode: none`。
 - 视频：四本Video Resource Book均为第四版且不含视频本体，只能作旧版辅助，不能冒充第五版视频听力。
 - 详细清单：[教材资料清单](curriculum/sources.md)。
 
@@ -59,8 +62,9 @@
 2. [语音教学协议](system/voice-teaching-protocol.md)；
 3. [当前周计划](plans/weekly/2026-W37.md)；
 4. [当前单元](curriculum/interchange-intro-5e/units/unit-01.md)；
-5. [待复习内容](review/due.md)；
-6. 只有存在真实记录时，再读最近的每日记录和相关错误。
+5. [当前单元听力内容卡](curriculum/interchange-intro-5e/listening/unit-01.md)；
+6. [待复习内容](review/due.md)；
+7. 只有存在真实记录时，再读最近的每日记录和相关错误。
 
 ## 开课指令
 
@@ -88,6 +92,7 @@
 - [学习者档案](profile/learner.md)
 - [进度总览](progress/dashboard.md)
 - [Intro课程地图](curriculum/interchange-intro-5e/course-map.md)
+- [Intro听力内容参考库](curriculum/interchange-intro-5e/listening/README.md)
 - [音频与测评映射](curriculum/resources-audio-assessment.md)
 - [通往C2与雅思的长期路线](plans/roadmap-to-c2-ielts.md)
 - [系统规则](system/rules.md)

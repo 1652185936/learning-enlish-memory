@@ -27,16 +27,18 @@
 每完成两个单元安排一次60分钟检查：
 
 1. 5分钟：无提示提取两个单元的核心表达；
-2. 20-30分钟：官方Written Quiz和同文件夹听力；
-3. 10-15分钟：从两个单元的Oral Question Bank抽题；
-4. 10-20分钟：只分析首次错误、订正并安排复习。
+2. 20分钟：官方Written Quiz当前可执行的非听力部分；Assessment听力没有公开可用内容卡时必须跳过、不评分；
+3. 15分钟：学生书Progress Check，严格使用[已核验PC内容卡](../../curriculum/interchange-intro-5e/listening/progress-checks.md)；
+4. 10分钟：从两个单元的Oral Question Bank抽题；
+5. 10分钟：只分析首次错误、订正并安排复习。
 
-学生书Progress Check也在此日完成。官方答案只能在首次作答后打开。若时间不够，订正顺延到周日，不压缩首次测验。
+官方答案只能在首次作答后打开。基于PC内容卡的AI语音记录`audio_mode: source_grounded_ai`、具体`listening_ref`和`source_verification`，但不冒充出版社原录音。若时间不够，订正顺延到周日，不压缩首次测验。
 
 ## 半册检查日
 
-- Units 1-8结束：完成`Unit Tests 1-8 version A`，45-60分钟，满分50；Version B保留作延迟复测。
-- Units 9-16结束：完成`Unit Tests 9-16 version A`，45-60分钟，满分50；Version B保留作延迟复测。
+- Units 1-8结束：完成`Unit Tests 1-8 version A`中当前可执行的非听力部分；Assessment听力保持`audio_mode: none`、跳过且不计分。Version B保留作延迟复测。
+- Units 9-16结束：完成`Unit Tests 9-16 version A`中当前可执行的非听力部分；Assessment听力保持`audio_mode: none`、跳过且不计分。Version B保留作延迟复测。
+- 在Assessment私有内容来源接入前，只记录“已答项目得分/已答项目总分”，不得把部分结果写成官方满分50分的完整成绩。
 - 半册测试不含口头产出，因此必须同时参考最近一次口试记录，不能只凭总分判定能否升级。
 
 ## 74次核心课日历
@@ -71,8 +73,8 @@
 ## 推进门槛
 
 - 单元可标`covered`：D1-D4均有每日记录，教材核心听说与读写任务都有真实证据。
-- 单元可标`assessed`：已完成该单元口试；所属双单元Written Quiz已有首次结果。
-- 半册可继续：Test A有真实分项结果，并完成一次无提示口语任务；薄弱点已有复习安排。
+- 单元可标`assessed`：已完成该单元口试；所属双单元Written Quiz的可执行部分已有首次结果，缺失的Assessment听力已明确标记为未执行、未评分。
+- 半册可继续：Test A可执行部分有真实分项结果，并完成一次无提示口语任务；缺失的Assessment听力不伪造分数，薄弱点已有复习安排。
 - 达不到门槛时：插入补强课，不把“按日历走完”当成掌握。
 - `retained`只能来自以后跨日期、换情境的延迟复测。
 

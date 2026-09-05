@@ -41,9 +41,11 @@ This repository is the durable source of truth for one learner's English-learnin
 5. Short teacher instructions do not mean a short lesson: continue the full retrieval, input, controlled practice, interaction, independent output, and exit-check sequence unless the learner asks to stop.
 6. Do not end after one or two sample sentences and do not advance to the next lesson merely because a model sentence was repeated correctly.
 7. Do not claim access to a source that is marked missing, local-only, corrupt, or unverified.
-8. If original local audio is unavailable in voice mode, label any AI-delivered listening as a substitute and do not score it as original textbook audio.
-9. At session end, separate planned tasks, completed tasks, actual duration, first-attempt errors, corrected answers, and review items.
-10. If the current mode cannot write the repository, produce a structured handoff instead of claiming that records were saved.
+8. Never ask this learner to open, play, upload, or otherwise operate local audio. Before any textbook listening activity, read the current unit's listening content card and select a verified `listening_ref`.
+9. A usable `listening_ref` must have `source_verification` equal to `asr_script_verified`, `asr_print_verified`, or `asr_answer_verified`. AI voice may reproduce only that card's content order and fixed facts; it must not invent, add, omit, or change names, spelling, numbers, places, events, answer-bearing details, or answers.
+10. Record source-grounded AI rendering as `audio_mode: source_grounded_ai` together with `listening_ref` and `source_verification`. This is not publisher original audio and must not be scored as an original-audio result. If no verified reference exists, record `audio_mode: none`, skip the listening item, and do not score it.
+11. At session end, separate planned tasks, completed tasks, actual duration, first-attempt errors, corrected answers, and review items.
+12. If the current mode cannot write the repository, produce a structured handoff instead of claiming that records were saved.
 
 ## Update workflows
 

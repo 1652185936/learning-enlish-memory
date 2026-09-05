@@ -23,10 +23,12 @@ learner_status: no_evidence
 | `SRC-IC5-L0-SB` | `Interchange Intro-SB.pdf` | Fifth Edition；158个PDF页；扫描版；16单元、8个Progress Checks及后附材料完整 | 学生书主线 |
 | `SRC-IC5-L0-TB` | `Interchange Intro-TB.pdf` | Fifth Edition；235个PDF页；教学页、答案、脚本、Language Summaries与WB答案可定位 | 教学说明与核对 |
 | `SRC-IC5-L0-WB` | `Interchange Intro-WB.pdf` | Fifth Edition；99个PDF页；印刷页1-95完整 | 独立练习与书面证据 |
-| `SRC-IC5-L0-AUDIO` | Intro课堂音频ZIP | 186个MP3；均为`IC5_L0`；16单元与8个Progress Check齐全 | 原版听力 |
+| `SRC-IC5-L0-AUDIO` | Intro课堂音频ZIP | 186个MP3；均为`IC5_L0`；16单元与8个Progress Check齐全 | 本地转写核验与活动映射来源 |
 | `SRC-IC5-L0-ASSESS` | `Interchange_Intro_Assessment.zip` | 94个文件；含口试题库、书面双单元测验、音频与半册测试 | 正式测评证据 |
 
 TB文件最后可见内容是Unit 16的Workbook Answer Key（PDF235 / T-183）。目录还列出非教学性的Credits T-184，但该页不在文件中；这不影响16单元教学、答案或脚本的使用。
+
+课堂音频的逐轨、非逐字内容记录见[Intro听力内容参考库](listening/README.md)。语音AI必须从那里选择已核验`listening_ref`，不得只凭本表的单元主题生成教材听力。
 
 ## 16单元总览
 

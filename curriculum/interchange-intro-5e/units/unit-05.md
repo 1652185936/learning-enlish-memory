@@ -36,15 +36,17 @@ learner_status: no_evidence
 
 | 课次 | 教材页 | 60分钟推进 | 当堂证据 |
 |---|---|---|---|
-| `IC5-L0-U05-D1` | SB印刷30-31 / PDF36-37 | 8分钟旧知提取；12分钟钟点/时段；15分钟原版时间音频首听；15分钟问答与拨钟；10分钟无稿报时 | 首听时间结果；无稿报时录音/转写；未知表达 |
-| `IC5-L0-U05-D2` | SB印刷32 / PDF38 | 8分钟提取；17分钟进行时Wh问句；10分钟控制练习；10分钟问句语调；10分钟替换问答；5分钟出口任务 | 首次答案与订正；3组问答；语调记录 |
-| `IC5-L0-U05-D3` | SB印刷33-34 / PDF39-40 | 8分钟提取；12分钟当前活动输入；15分钟人物/活动细听；15分钟在线聊天读写；10分钟少提示即时对话 | 首听细节；聊天信息提取；一条状态短写 |
-| `IC5-L0-U05-D4` | SB印刷35 / PDF41 | 10分钟间隔提取；15分钟末页综合；10分钟Grammar Plus U5；10分钟WB精选；10分钟官方U5口试；5分钟记录 | WB首次结果；时间安排短写；口试五维分；复习日期 |
+| `IC5-L0-U05-D1` | SB印刷30-31 / PDF36-37 | 8分钟旧知提取；12分钟钟点/时段；15分钟依据`IC5-L0-U05-A01`、`IC5-L0-U05-A02`、`IC5-L0-U05-A03`、`IC5-L0-U05-A04`由AI按卡内顺序呈现并首听（`audio_mode: source_grounded_ai`）；15分钟问答与拨钟；10分钟无稿报时 | 首听时间结果及所用`listening_ref`；无稿报时录音/转写；未知表达 |
+| `IC5-L0-U05-D2` | SB印刷32 / PDF38 | 8分钟提取；17分钟依据`IC5-L0-U05-A05`、`IC5-L0-U05-A06`做世界时区信息细听；10分钟依据`IC5-L0-U05-A07`练进行时问答；10分钟依据`IC5-L0-U05-A08`、`IC5-L0-U05-A09`做问句语调；10分钟替换问答；5分钟出口任务 | 首次答案与订正；所用`listening_ref`；3组问答；语调记录 |
+| `IC5-L0-U05-D3` | SB印刷33-34 / PDF39-40 | 8分钟提取；12分钟依据`IC5-L0-U05-A10`学习当前活动；15分钟依据`IC5-L0-U05-A10`、`IC5-L0-U05-A11`做人物/活动细听（`source_grounded_ai`）；15分钟活动信息差；10分钟少提示即时对话 | 首听人物/活动细节及`listening_ref`；一条状态短写；即时对话转写 |
+| `IC5-L0-U05-D4` | SB印刷35 / PDF41 | 10分钟依据`IC5-L0-U05-A12`做在线聊天信息首听；15分钟末页阅读与信息核对；10分钟Grammar Plus U5；10分钟WB精选；10分钟官方U5口试；5分钟记录 | `IC5-L0-U05-A12`首听与阅读核对结果；WB首次结果；时间安排短写；口试五维分；复习日期 |
 
 ## 测评位置
 
 - 单元口试：`IC5_Intro_OQ_Question_Bank.pdf`的Unit 5分区；评分表`IC5_Intro_OQ_Scoring_Sheet.pdf`。
-- 双单元书面测验：Unit 06后使用`Intro Written_Quiz_U5-6/IC5_Intro_WQ_U5to6.pdf`及同文件夹MP3 Track03；本单元结束时仅登记待测。
+- 单元内听力检查：依据`IC5-L0-U05-A05`、`IC5-L0-U05-A06`和`IC5-L0-U05-A09`由AI按内容卡呈现，记录`audio_mode: source_grounded_ai`、`listening_ref`和`source_verification`；结果只代表来源约束的AI练习。
+- 双单元检查：完成Unit 06后使用[Progress Check听力卡](../listening/progress-checks.md)中的`IC5-L0-PC05-06-A01`；Unit 05结束时只登记待测。
+- 双单元书面测验：`Intro Written_Quiz_U5-6/IC5_Intro_WQ_U5to6.pdf`的Track03目前只有[Assessment配对元数据](../listening/assessment-audio-index.md)中的`IC5-L0-WQ05-06-A01`，没有公开可呈现的内容卡；听力部分记`audio_mode: none`并跳过、不评分。
 
 ## 个性化工作场景迁移（非教材原文）
 
@@ -52,7 +54,7 @@ learner_status: no_evidence
 
 ## 必须保存的学习证据
 
-- 原版音频首听的钟点/活动答案。
+- AI来源约束听力首遍的钟点/人物/活动答案；每次记录`audio_mode: source_grounded_ai`、具体`listening_ref`和其`source_verification`。
 - 一段无稿报时与当前状态问答；一条简短工作状态文字。
 - 控制练习和WB首次/订正结果。
 - 官方U5口试原始分；Unit 06后补充U5-6书面测验分项。

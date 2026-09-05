@@ -14,6 +14,7 @@ learner_status: no_evidence
 - WB：印刷页1-6 / PDF4-9；来源`SRC-IC5-L0-WB`。
 - Grammar Plus：SB印刷页132 / PDF138；TB PDF184。
 - 官方课堂音频：前缀`IC5_L0_Unit 01`，16个MP3；来源`SRC-IC5-L0-AUDIO`。
+- 已核验听力内容卡：[Unit 01 listening references](../listening/unit-01.md)；课堂AI语音必须记录`audio_mode: source_grounded_ai`、所用`listening_ref`及卡片的`source_verification`。
 - 与Unit 02合并检查：SB Progress Check印刷页14-15 / PDF20-21；TB T14-T15 / PDF38-39；音频`IC5_L0_Unit 01-02 PC`（1个）。
 
 ## 单元学习结果
@@ -36,15 +37,16 @@ learner_status: no_evidence
 
 | 课次 | 教材页 | 60分钟推进 | 当堂证据 |
 |---|---|---|---|
-| `IC5-L0-U01-D1` | SB印刷2-3 / PDF8-9 | 8分钟基线问候；12分钟姓名/称谓；15分钟原版介绍音频首次听；15分钟跟读与交换姓名；10分钟不看稿自我介绍 | 首听捕捉到的姓名；一段不看稿介绍；未知字母/称谓 |
-| `IC5-L0-U01-D2` | SB印刷4 / PDF10 | 8分钟提取；17分钟`be`与`my/your/his/her`；10分钟控制练习；10分钟连读听辨；10分钟替换问答；5分钟出口句 | 首次答案与订正；3个独立例句；一次连读听辨记录 |
-| `IC5-L0-U01-D3` | SB印刷5-6 / PDF11-12 | 8分钟复述；12分钟数字/字母输入；15分钟电话和邮箱细听；15分钟拼写与信息差；10分钟少提示联系人交换 | 首听联系方式结果；一份联系人条目；少提示问答转写 |
-| `IC5-L0-U01-D4` | SB印刷7 / PDF13 | 10分钟间隔提取；15分钟末页综合；10分钟Grammar Plus U1；10分钟WB精选；10分钟官方U1口试题；5分钟登记错误/复习 | WB首次结果；联系信息短写；口试五维分；复习日期 |
+| `IC5-L0-U01-D1` | SB印刷2-3 / PDF8-9 | 8分钟基线问候；12分钟姓名/称谓；15分钟基于`IC5-L0-U01-A01`、`IC5-L0-U01-A03`、`IC5-L0-U01-A04`、`IC5-L0-U01-A05`、`IC5-L0-U01-A06`的首听，记录`audio_mode: source_grounded_ai`；15分钟跟读与交换姓名；10分钟不看稿自我介绍 | 首听所用完整`listening_ref`、`source_verification`及捕捉到的姓名；一段不看稿介绍；未知字母/称谓 |
+| `IC5-L0-U01-D2` | SB印刷4 / PDF10 | 8分钟提取；17分钟`be`与`my/your/his/her`；10分钟控制练习；10分钟基于`IC5-L0-U01-A09`、`IC5-L0-U01-A11`、`IC5-L0-U01-A12`的问候与连读听辨；10分钟替换问答；5分钟出口句 | `audio_mode: source_grounded_ai`、完整`listening_ref`、`source_verification`、首次答案与订正；3个独立例句；一次连读听辨记录 |
+| `IC5-L0-U01-D3` | SB印刷5-6 / PDF11-12 | 8分钟复述；12分钟数字/字母输入；15分钟基于`IC5-L0-U01-A13`、`IC5-L0-U01-A14`、`IC5-L0-U01-A15`的电话和邮箱细听；15分钟拼写与信息差；10分钟少提示联系人交换 | `audio_mode: source_grounded_ai`、完整`listening_ref`、`source_verification`及首听联系方式结果；一份联系人条目；少提示问答转写 |
+| `IC5-L0-U01-D4` | SB印刷7 / PDF13 | 5分钟间隔提取；20分钟基于`IC5-L0-U01-A02`、`IC5-L0-U01-A07`、`IC5-L0-U01-A08`、`IC5-L0-U01-A10`、`IC5-L0-U01-A16`的末页综合；10分钟Grammar Plus U1；10分钟WB精选；10分钟官方U1口试题；5分钟登记错误/复习 | `audio_mode: source_grounded_ai`、全部所用`listening_ref`及对应`source_verification`；WB首次结果；联系信息短写；口试五维分；复习日期 |
 
 ## 测评位置
 
 - 单元口试：`Interchange_Intro_Assessment.zip` → `Intro Assessment/Intro Oral Quizzes/IC5_Intro_OQ_Question_Bank.pdf`的Unit 1分区；评分表为同目录`IC5_Intro_OQ_Scoring_Sheet.pdf`。
-- 双单元书面测验：完成Unit 02后使用`Intro Written_Quiz_U1-2/IC5_Intro_WQ_U1to2.pdf`及同文件夹MP3 Track01；Unit 01结束时不得提前把该测验记为完成。
+- 双单元检查：完成Unit 02后使用[Progress Check听力卡](../listening/progress-checks.md)中的`IC5-L0-PC01-02-A01`；Unit 01结束时只登记待测，不提前记为完成。
+- 双单元书面测验：完成Unit 02后使用`Intro Written_Quiz_U1-2/IC5_Intro_WQ_U1to2.pdf`。其Track01目前只有[Assessment配对元数据](../listening/assessment-audio-index.md)中的`IC5-L0-WQ01-02-A01`，没有公开可呈现的内容卡；听力部分记`audio_mode: none`并跳过、不评分。
 
 ## 个性化工作场景迁移（非教材原文）
 
@@ -52,7 +54,7 @@ learner_status: no_evidence
 
 ## 必须保存的学习证据
 
-- 原版音频第一遍听力结果，且注明是否播放原版；语音模式替代音频不得冒充原版成绩。
+- 基于内容卡的AI语音首遍结果（姓名、称谓或联系方式），并同时记录`audio_mode: source_grounded_ai`、完整`listening_ref`和卡片的`source_verification`；不得冒充出版社原音频成绩。
 - 一段无稿自我介绍和一轮联系人信息问答的录音/转写。
 - WB或控制练习首次答案与订正答案；一份功能性联系人短写。
 - 官方口试五维原始分；Unit 02后补充双单元测验分项结果。

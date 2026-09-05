@@ -14,6 +14,7 @@ learner_status: no_evidence
 - WB：印刷页79-84 / PDF82-87；来源`SRC-IC5-L0-WB`。
 - Grammar Plus：SB印刷页145 / PDF151；TB PDF197。
 - 官方课堂音频：前缀`IC5_L0_Unit 14`，12个MP3；来源`SRC-IC5-L0-AUDIO`。
+- 已核验听力内容卡：[Unit 14 listening references](../listening/unit-14.md)；课堂AI语音只能依据卡片组织提问、复述与回放任务，并记录`audio_mode`、`listening_ref`和`source_verification`。
 - U13-14检查：SB印刷页98-99 / PDF104-105；TB T98-T99 / PDF146-147；音频`IC5_L0_Unit 13-14 PC`（1个）。
 
 ## 单元学习结果
@@ -36,16 +37,16 @@ learner_status: no_evidence
 
 | 课次 | 教材页 | 60分钟推进 | 当堂证据 |
 |---|---|---|---|
-| `IC5-L0-U14-D1` | SB印刷92-93 / PDF98-99 | 8分钟U13提取；12分钟周末/家务；15分钟原版过去活动首听；15分钟问答；10分钟无稿说上周末 | 首听活动结果；无稿过去叙述；未知词 |
-| `IC5-L0-U14-D2` | SB印刷94 / PDF100 | 8分钟提取；17分钟规则/不规则过去式与`did`；10分钟控制练习；10分钟`-ed`听辨；10分钟替换问答；5分钟出口任务 | 首次答案与订正；3组过去问答；发音记录 |
-| `IC5-L0-U14-D3` | SB印刷95-96 / PDF101-102 | 8分钟提取；12分钟假期活动；15分钟过去事件细听；15分钟周末帖子阅读；10分钟少提示互访 | 首听细节；阅读信息表；互访问答转写 |
-| `IC5-L0-U14-D4` | SB印刷97 / PDF103 | 10分钟间隔提取；15分钟末页综合；10分钟Grammar Plus U14；10分钟WB精选；10分钟官方U14口试；5分钟记录 | WB首次结果；周末短写；口试五维分；复习日期 |
+| `IC5-L0-U14-D1` | SB印刷92-93 / PDF98-99 | 8分钟U13提取；12分钟周末/家务；15分钟基于A01-A03的来源约束AI语音首听与核对；15分钟问答；10分钟无稿说上周末 | 首听活动结果；无稿过去叙述；未知词；`audio_mode: source_grounded_ai`；`listening_ref: [IC5-L0-U14-A01, IC5-L0-U14-A02, IC5-L0-U14-A03]`；`source_verification`按卡片记录 |
+| `IC5-L0-U14-D2` | SB印刷94 / PDF100 | 8分钟提取；17分钟规则/不规则过去式与`did`；10分钟控制练习；10分钟基于A04-A06的`-ed`与不规则词听辨；10分钟替换问答；5分钟出口任务 | 首次答案与订正；3组过去问答；发音记录；`audio_mode: source_grounded_ai`；`listening_ref: [IC5-L0-U14-A04, IC5-L0-U14-A05, IC5-L0-U14-A06]`；`source_verification`按卡片记录 |
+| `IC5-L0-U14-D3` | SB印刷95-96 / PDF101-102 | 8分钟提取；12分钟假期活动；15分钟基于A07-A09的过去事件细听；15分钟周末帖子阅读；10分钟少提示互访 | 首听细节；阅读信息表；互访问答转写；`audio_mode: source_grounded_ai`；`listening_ref: [IC5-L0-U14-A07, IC5-L0-U14-A08, IC5-L0-U14-A09]`；`source_verification`按卡片记录 |
+| `IC5-L0-U14-D4` | SB印刷97 / PDF103 | 10分钟间隔提取；15分钟基于A10-A12的听力、搭配与阅读综合；10分钟Grammar Plus U14；10分钟WB精选；10分钟官方U14口试；5分钟记录 | WB首次结果；周末短写；口试五维分；复习日期；`audio_mode: source_grounded_ai`；`listening_ref: [IC5-L0-U14-A10, IC5-L0-U14-A11, IC5-L0-U14-A12]`；`source_verification`按卡片记录 |
 
 ## 测评位置
 
 - 单元口试：`IC5_Intro_OQ_Question_Bank.pdf`的Unit 14分区；使用`IC5_Intro_OQ_Scoring_Sheet.pdf`。
-- 双单元检查：SB U13-14 Progress Check及`IC5_L0_Unit 13-14 PC`。
-- 双单元书面测验：`Intro Written_Quiz_U13-14/IC5_Intro_WQ_U13to14.pdf`与同文件夹MP3 Track07。
+- 双单元检查：SB U13-14 Progress Check使用[已核验PC内容卡](../listening/progress-checks.md)中的`IC5-L0-PC13-14-A01`，记录`audio_mode: source_grounded_ai`、`listening_ref`和`source_verification`；首次作答后再核对答案，不得把AI呈现记为出版社原音频成绩。
+- 双单元书面测验：`Intro Written_Quiz_U13-14/IC5_Intro_WQ_U13to14.pdf`的Track07目前只有[Assessment配对元数据](../listening/assessment-audio-index.md)中的`IC5-L0-WQ13-14-A01`，没有公开可呈现的内容卡；听力部分记`audio_mode: none`并跳过、不评分。
 
 ## 个性化工作场景迁移（非教材原文）
 
@@ -53,7 +54,7 @@ learner_status: no_evidence
 
 ## 必须保存的学习证据
 
-- 原版音频首听的过去活动结果。
+- 已核验课堂音轨首遍的过去活动结果；每条证据记录`audio_mode: source_grounded_ai`、`listening_ref`和`source_verification`。
 - 一段无稿周末/工作回顾和一轮过去事件问答；一篇过去活动短写。
 - 控制练习、WB、U13-14 Progress Check和Written Quiz首次/订正结果。
 - Unit 14官方口试五维原始分。

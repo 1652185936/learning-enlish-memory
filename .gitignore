@@ -1,0 +1,5 @@
+# Raw local audio and machine transcripts are verification inputs, not public artifacts.
+.local-audio-work/
+private-transcripts/
+*.asr.jsonl
+__pycache__/

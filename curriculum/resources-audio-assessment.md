@@ -13,7 +13,7 @@
 
 | 级别 | 归档文件 | 真实可播放MP3 | 总时长 | 覆盖 |
 |---|---|---:|---:|---|
-| Intro | `Interchange Intro Level Classroom Audio_20190814_193143.zip` | 186 | 约219.3分钟 | U1-16及8次PC |
+| Intro | `Interchange Intro Level Classroom Audio_20190814_193143.zip` | 186 | 219.582分钟 | U1-16及8次PC |
 | Level 1 | `Interchange 1 Level Classroom Audio.zip` | 152 | 约174.2分钟 | U1-16及8次PC |
 | Level 2 | `Interchange 2 Level Classroom Audio.zip` | 158 | 约211.6分钟 | U1-16及有声PC项目 |
 | Level 3 | `Interchange 3 Level Classroom Audio.zip` | 141 | 约191.2分钟 | U1-16及8组PC；9个PC音频文件（U11-12分为Part A/B） |
@@ -50,9 +50,9 @@ Level 3 ZIP另含一个280字节的`__MACOSX/._...mp3`元数据文件，不应�
 | 检查点 | 使用材料 | 建议时长 | 记录要求 |
 |---|---|---:|---|
 | 每个单元第4课 | Oral Question Bank中该单元题目 | 10-15分钟 | 保存首次回答、提示程度及五维评分 |
-| 每两个单元 | 对应Written Quiz及同文件夹MP3 | 20-30分钟 | 保存首次原始分、分项错误与订正分 |
-| Units 1-8结束 | Half-book Test 1-8 A | 45-60分钟 | 满分50；保存分项结果；B卷留作延迟复测 |
-| Units 9-16结束 | Half-book Test 9-16 A | 45-60分钟 | 满分50；保存分项结果；B卷留作延迟复测 |
+| 每两个单元 | 对应Written Quiz的可执行非听力部分；另做已核验Progress Check内容卡 | 约35分钟 | 保存已答项目首次结果；Assessment听力跳过、不评分 |
+| Units 1-8结束 | Half-book Test 1-8 A当前可执行的非听力部分 | 以实际为准 | 保存“已答得分/已答总分”；听力跳过；B卷留作延迟复测 |
+| Units 9-16结束 | Half-book Test 9-16 A当前可执行的非听力部分 | 以实际为准 | 保存“已答得分/已答总分”；听力跳过；B卷留作延迟复测 |
 
 ### 口试评分
 
@@ -79,12 +79,14 @@ Assessment中MP3文件名与脚本纸面轨号不是同一编号：
 
 ## 语音模式如何使用
 
-1. 先读`VOICE_CONTEXT.md`和当前单元文件。
-2. 让学习者按单元文件给出的前缀，从本地ZIP打开对应页/练习的MP3。
-3. 第一遍不显示脚本；先记录主旨和细节答案。
-4. 第二遍允许重听；把第二遍结果与第一遍分开。
-5. 最后才用教师书或Assessment脚本订正。
-6. 若语音模式拿不到本地原音频，明确说“当前使用AI口述/角色扮演替代”，不得记录为原教材听力成绩。
+1. 先读`VOICE_CONTEXT.md`、当前单元文件和该单元的[听力内容卡](interchange-intro-5e/listening/README.md)。
+2. 每项教材听力必须先选定已核验的`listening_ref`；不要求学习者查找、打开、播放或上传本地MP3。
+3. AI语音只能按内容卡中已核验的内容顺序和固定事实重现，不得根据单元主题自行编造姓名、数字、事件或答案。
+4. 第一遍不显示答案；先记录主旨和细节结果。第二遍与第一遍结果分开。
+5. 最后才用内容卡中已核验的教师书脚本或答案订正。
+6. 统一记录`audio_mode: source_grounded_ai`和`listening_ref`；这不等于播放了出版社原录音，也不计为原版录音成绩。没有已核验引用时不执行、不评分。
+
+Assessment的12个MP3目前只有[配对元数据索引](interchange-intro-5e/listening/assessment-audio-index.md)，没有公开可呈现的内容卡。因此Written Quiz与Half-book Test的听力项目统一保持`audio_mode: none`；不得用课堂单元卡或自由生成内容代替。
 
 ## 第四版Video Resource Book
 

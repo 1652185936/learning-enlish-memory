@@ -14,6 +14,7 @@ learner_status: no_evidence
 - WB：印刷页43-48 / PDF46-51；来源`SRC-IC5-L0-WB`。
 - Grammar Plus：SB印刷页139 / PDF145；TB PDF191。
 - 官方课堂音频：前缀`IC5_L0_Unit 08`，9个MP3；来源`SRC-IC5-L0-AUDIO`。
+- 听力内容卡：[Unit 08](../listening/unit-08.md)；可用引用为`IC5-L0-U08-A01`至`IC5-L0-U08-A09`，均已完成ASR与第五版TB核验。
 - U7-8检查：SB印刷页56-57 / PDF62-63；TB T56-T57 / PDF92-93；音频`IC5_L0_Unit 07-08 PC`（1个）。
 
 ## 单元学习结果
@@ -36,16 +37,16 @@ learner_status: no_evidence
 
 | 课次 | 教材页 | 60分钟推进 | 当堂证据 |
 |---|---|---|---|
-| `IC5-L0-U08-D1` | SB印刷50-51 / PDF56-57 | 8分钟U7提取；12分钟职业/地点；15分钟原版职业音频首听；15分钟工作问答；10分钟无稿岗位介绍 | 首听职业结果；无稿介绍；未知词 |
-| `IC5-L0-U08-D2` | SB印刷52 / PDF58 | 8分钟提取；17分钟Wh问句与形容词位置；10分钟控制练习；10分钟`do`弱读听辨；10分钟替换采访；5分钟出口任务 | 首次答案与订正；3组工作问答；弱读记录 |
-| `IC5-L0-U08-D3` | SB印刷53-54 / PDF59-60 | 8分钟提取；12分钟工作日/观点输入；15分钟工作信息细听；15分钟不寻常职业阅读；10分钟少提示比较 | 首听细节；阅读信息表；少提示口述 |
-| `IC5-L0-U08-D4` | SB印刷55 / PDF61 | 10分钟间隔提取；15分钟末页综合；10分钟Grammar Plus U8；10分钟WB精选；10分钟官方U8口试；5分钟记录 | WB首次结果；职业短写；口试五维分；复习日期 |
+| `IC5-L0-U08-D1` | SB印刷50-51 / PDF56-57 | 8分钟U7提取；12分钟职业/地点；15分钟选用已核验的`IC5-L0-U08-A01`与`IC5-L0-U08-A02`，由AI严格按内容卡的顺序和固定事实呈现并首听，记录`audio_mode: source_grounded_ai`；15分钟工作问答；10分钟无稿岗位介绍 | 首听职业结果；实际`listening_ref`与`source_verification`；无稿介绍；未知词 |
+| `IC5-L0-U08-D2` | SB印刷52 / PDF58 | 8分钟提取；17分钟Wh问句与形容词位置；10分钟控制练习；10分钟依据`IC5-L0-U08-A03`与`IC5-L0-U08-A04`进行来源约束的`do`弱读听辨，记录`audio_mode: source_grounded_ai`；10分钟替换采访；5分钟出口任务 | 首次答案与订正；3组工作问答；弱读记录；实际`listening_ref`与`source_verification` |
+| `IC5-L0-U08-D3` | SB印刷53-54 / PDF59-60 | 8分钟提取；12分钟工作日/观点输入；15分钟依据`IC5-L0-U08-A05`、`IC5-L0-U08-A06`、`IC5-L0-U08-A07`和`IC5-L0-U08-A08`进行来源约束的工作信息细听，记录`audio_mode: source_grounded_ai`；15分钟不寻常职业阅读；10分钟少提示比较 | 首听细节；实际`listening_ref`与`source_verification`；阅读信息表；少提示口述 |
+| `IC5-L0-U08-D4` | SB印刷55 / PDF61 | 10分钟间隔提取；15分钟依据`IC5-L0-U08-A09`进行来源约束的末页综合，记录`audio_mode: source_grounded_ai`；10分钟Grammar Plus U8；10分钟WB精选；10分钟官方U8口试；5分钟记录 | WB首次结果；`listening_ref`与`source_verification`；职业短写；口试五维分；复习日期 |
 
 ## 测评位置
 
 - 单元口试：`IC5_Intro_OQ_Question_Bank.pdf`的Unit 8分区；使用`IC5_Intro_OQ_Scoring_Sheet.pdf`。
-- 双单元检查：SB U7-8 Progress Check及`IC5_L0_Unit 07-08 PC`。
-- 双单元书面测验：`Intro Written_Quiz_U7-8/IC5_Intro_WQ_U7to8.pdf`与同文件夹MP3 Track04。
+- 双单元检查：SB U7-8 Progress Check使用[已核验PC内容卡](../listening/progress-checks.md)中的`IC5-L0-PC07-08-A01`，记录`audio_mode: source_grounded_ai`、`listening_ref`和`source_verification`；首次作答后再核对答案，不得把AI呈现记为出版社原音频成绩。
+- 双单元书面测验：`Intro Written_Quiz_U7-8/IC5_Intro_WQ_U7to8.pdf`的Track04目前只有[Assessment配对元数据](../listening/assessment-audio-index.md)中的`IC5-L0-WQ07-08-A01`，没有公开可呈现的内容卡；听力部分记`audio_mode: none`并跳过、不评分。
 - 半册节点：完成U7-8双单元检查后，按总计划使用`Unit Tests 1-8 version A`作首次半册测试；Version B保留作延迟复测。
 
 ## 个性化工作场景迁移（非教材原文）
@@ -54,7 +55,7 @@ learner_status: no_evidence
 
 ## 必须保存的学习证据
 
-- 原版音频首听的职业、地点与职责结果。
+- 基于已核验内容卡的AI来源约束听力首遍结果：职业与工作地点使用`IC5-L0-U08-A01`和`IC5-L0-U08-A02`，工作看法使用`IC5-L0-U08-A07`；记录`audio_mode: source_grounded_ai`、实际`listening_ref`和`source_verification`。
 - 一段无稿岗位介绍和一轮工作采访；一篇职责短写。
 - 控制练习、WB、U7-8 Progress Check与Written Quiz首次/订正结果。
 - Unit 8官方口试五维原始分；半册测试只在真实完成后记录。

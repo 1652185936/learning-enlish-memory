@@ -14,6 +14,7 @@ learner_status: no_evidence
 - WB：印刷页31-36 / PDF34-39；来源`SRC-IC5-L0-WB`。
 - Grammar Plus：SB印刷页137 / PDF143；TB PDF189。
 - 官方课堂音频：前缀`IC5_L0_Unit 06`，10个MP3；来源`SRC-IC5-L0-AUDIO`。
+- 听力内容卡：[Unit 06](../listening/unit-06.md)；可用引用为`IC5-L0-U06-A01`至`IC5-L0-U06-A10`，均已完成ASR与第五版TB核验。
 - U5-6检查：SB印刷页42-43 / PDF48-49；TB T42-T43 / PDF74-75；音频`IC5_L0_Unit 05-06 PC`（1个）。
 
 ## 单元学习结果
@@ -36,16 +37,16 @@ learner_status: no_evidence
 
 | 课次 | 教材页 | 60分钟推进 | 当堂证据 |
 |---|---|---|---|
-| `IC5-L0-U06-D1` | SB印刷36-37 / PDF42-43 | 8分钟U5提取；12分钟交通/家庭；15分钟原版日常音频首听；15分钟通勤问答；10分钟无稿说自己的路线 | 首听交通结果；无稿通勤描述；未知词 |
-| `IC5-L0-U06-D2` | SB印刷38 / PDF44 | 8分钟提取；17分钟一般现在时和第三人称；10分钟控制练习；10分钟`-s`发音；10分钟替换问答；5分钟出口任务 | 首次答案与订正；3组第三人称句；发音记录 |
-| `IC5-L0-U06-D3` | SB印刷39-40 / PDF45-46 | 8分钟提取；12分钟星期/例行活动；15分钟日程细听；15分钟时间表阅读与填写；10分钟少提示采访 | 首听日程结果；一周时间表；采访转写 |
-| `IC5-L0-U06-D4` | SB印刷41 / PDF47 | 10分钟间隔提取；15分钟末页综合；10分钟Grammar Plus U6；10分钟WB精选；10分钟官方U6口试；5分钟记录 | WB首次结果；例行活动短写；口试五维分；复习日期 |
+| `IC5-L0-U06-D1` | SB印刷36-37 / PDF42-43 | 8分钟U5提取；12分钟交通/家庭；15分钟选用已核验的`IC5-L0-U06-A01`、`IC5-L0-U06-A02`、`IC5-L0-U06-A03`和`IC5-L0-U06-A04`，由AI严格按内容卡的顺序和固定事实呈现并首听，记录`audio_mode: source_grounded_ai`；15分钟通勤问答；10分钟无稿说自己的路线 | 首听交通结果；实际`listening_ref`与`source_verification`；无稿通勤描述；未知词 |
+| `IC5-L0-U06-D2` | SB印刷38 / PDF44 | 8分钟提取；17分钟一般现在时和第三人称；10分钟控制练习；10分钟`-s`发音；10分钟替换问答；5分钟出口任务（已核验听力引用：`IC5-L0-U06-A05`、`IC5-L0-U06-A06`、`IC5-L0-U06-A07`；AI呈现时记录`audio_mode: source_grounded_ai`） | 首次答案与订正；3组第三人称句；发音记录；实际`listening_ref`与`source_verification` |
+| `IC5-L0-U06-D3` | SB印刷39-40 / PDF45-46 | 8分钟提取；12分钟星期/例行活动；15分钟依据`IC5-L0-U06-A08`与`IC5-L0-U06-A09`进行来源约束的日程细听，记录`audio_mode: source_grounded_ai`；15分钟时间表阅读与填写；10分钟少提示采访 | 首听日程结果；实际`listening_ref`与`source_verification`；一周时间表；采访转写 |
+| `IC5-L0-U06-D4` | SB印刷41 / PDF47 | 10分钟间隔提取；15分钟依据`IC5-L0-U06-A10`进行来源约束的末页综合，记录`audio_mode: source_grounded_ai`；10分钟Grammar Plus U6；10分钟WB精选；10分钟官方U6口试；5分钟记录 | WB首次结果；`listening_ref`与`source_verification`；例行活动短写；口试五维分；复习日期 |
 
 ## 测评位置
 
 - 单元口试：`IC5_Intro_OQ_Question_Bank.pdf`的Unit 6分区；使用`IC5_Intro_OQ_Scoring_Sheet.pdf`。
-- 双单元检查：SB U5-6 Progress Check及`IC5_L0_Unit 05-06 PC`。
-- 双单元书面测验：`Intro Written_Quiz_U5-6/IC5_Intro_WQ_U5to6.pdf`与同文件夹MP3 Track03；首次作答后核对答案。
+- 双单元检查：SB U5-6 Progress Check使用[已核验PC内容卡](../listening/progress-checks.md)中的`IC5-L0-PC05-06-A01`，记录`audio_mode: source_grounded_ai`、`listening_ref`和`source_verification`；首次作答后再核对答案，不得把AI呈现记为出版社原音频成绩。
+- 双单元书面测验：`Intro Written_Quiz_U5-6/IC5_Intro_WQ_U5to6.pdf`的Track03目前只有[Assessment配对元数据](../listening/assessment-audio-index.md)中的`IC5-L0-WQ05-06-A01`，没有公开可呈现的内容卡；听力部分记`audio_mode: none`并跳过、不评分。
 
 ## 个性化工作场景迁移（非教材原文）
 
@@ -53,7 +54,7 @@ learner_status: no_evidence
 
 ## 必须保存的学习证据
 
-- 原版音频首听的交通、星期和活动结果。
+- 基于已核验内容卡的AI来源约束听力首遍结果：交通使用`IC5-L0-U06-A01`与`IC5-L0-U06-A02`，星期和每周活动使用`IC5-L0-U06-A09`；记录`audio_mode: source_grounded_ai`、实际`listening_ref`和`source_verification`。
 - 无稿通勤描述与一轮日程采访；一份每周例行活动短写。
 - 控制练习、WB、U5-6 Progress Check和Written Quiz首次/订正结果。
 - Unit 6官方口试五维原始分。

@@ -12,12 +12,12 @@
 
 ## 当前课程
 
-- [Interchange Fifth Edition Intro](interchange-intro-5e/course-map.md)：当前正式起点；16个单元均有四课教学包，核心学生书、教师书、完整练习册、186个音频及Assessment已核验。
-- [Interchange Fifth Edition Level 1](interchange-level-1-5e/course-map.md)：16单元课程地图及单元教学包；学生书/教师书、音频和Assessment可用，练习册仅Units 1-8。
+- [Interchange Fifth Edition Intro](interchange-intro-5e/course-map.md)：当前正式起点；16个单元均有四课教学包，学生书、教师书、完整练习册和186张课堂/PC听力内容卡可用；Assessment听力仅有不可呈现的配对元数据。
+- [Interchange Fifth Edition Level 1](interchange-level-1-5e/course-map.md)：16单元课程地图及单元教学包；学生书/教师书及音频、Assessment源文件已核验，练习册仅Units 1-8；因尚无逐轨内容卡，听力保持`audio_mode: none`。
 - [Level 1A Workbook映射](interchange-level-1-5e/supplements/workbook-1a.md)：覆盖Units 1-8。
 - [旧版Level 1视频补充映射](interchange-level-1-5e/supplements/video-resource-book-1-4e.md)：只按功能匹配。
-- [Interchange Fifth Edition Level 2](interchange-level-2-5e/course-map.md)：教师书、全级音频和Assessment可用；2A学生书/练习册正常覆盖Units 1-8，仍缺2B。
-- [Interchange Fifth Edition Level 3](interchange-level-3-5e/course-map.md)：教师书、全级音频和Assessment可用；3A学生书/练习册正常覆盖Units 1-8，仍缺3B。
+- [Interchange Fifth Edition Level 2](interchange-level-2-5e/course-map.md)：教师书、全级音频和Assessment源文件已核验；2A学生书/练习册正常覆盖Units 1-8，仍缺2B；因尚无逐轨内容卡，听力保持`audio_mode: none`。
+- [Interchange Fifth Edition Level 3](interchange-level-3-5e/course-map.md)：教师书、全级音频和Assessment源文件已核验；3A学生书/练习册正常覆盖Units 1-8，仍缺3B；因尚无逐轨内容卡，听力保持`audio_mode: none`。
 - [音频与测评资源映射](resources-audio-assessment.md)：四级音频、口试、双单元测验和半册测试的使用规则。
 
 ## 单元文件原则
@@ -32,7 +32,7 @@
 6. 明确的资料缺口；
 7. `learner_status: no_evidence` 初始状态。
 
-原版 PDF、答案、音频、视频和软件不提交到本仓库。本仓库只保存摘要、索引、个性化任务和学习证据。
+原版PDF、音频、视频、软件、答案册和完整测评文件不提交到本仓库。本仓库只保存摘要、索引、个性化任务、学习证据，以及约束AI所必需的最小核验事实或答案。
 
 ## 当前学习入口
 

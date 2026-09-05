@@ -14,6 +14,7 @@ learner_status: no_evidence
 - WB：印刷页85-90 / PDF88-93；来源`SRC-IC5-L0-WB`。
 - Grammar Plus：SB印刷页146 / PDF152；TB PDF198。
 - 官方课堂音频：前缀`IC5_L0_Unit 15`，11个MP3；来源`SRC-IC5-L0-AUDIO`。
+- 已核验听力内容卡：[Unit 15 listening references](../listening/unit-15.md)；课堂AI语音只能依据卡片组织提问、复述与回放任务，并记录`audio_mode`、`listening_ref`和`source_verification`。
 - 与Unit 16合并检查：SB印刷页112-113 / PDF118-119；TB T112-T113 / PDF164-165；音频`IC5_L0_Unit 15-16 PC`（1个）。
 
 ## 单元学习结果
@@ -36,15 +37,16 @@ learner_status: no_evidence
 
 | 课次 | 教材页 | 60分钟推进 | 当堂证据 |
 |---|---|---|---|
-| `IC5-L0-U15-D1` | SB印刷100-101 / PDF106-107 | 8分钟旧知提取；12分钟出生/年份；15分钟原版生平音频首听；15分钟出生信息问答；10分钟无稿说两项背景 | 首听日期/地点结果；无稿背景；未知词 |
-| `IC5-L0-U15-D2` | SB印刷102 / PDF108 | 8分钟提取；17分钟`was/were`与`did`问句；10分钟控制练习；10分钟否定缩写听辨；10分钟替换采访；5分钟出口任务 | 首次答案与订正；3组历史问答；发音记录 |
-| `IC5-L0-U15-D3` | SB印刷103-104 / PDF109-110 | 8分钟提取；12分钟学校/记忆输入；15分钟生平细听；15分钟人物传记阅读；10分钟少提示采访 | 首听细节；阅读时间线；采访转写 |
-| `IC5-L0-U15-D4` | SB印刷105 / PDF111 | 10分钟间隔提取；15分钟末页综合；10分钟Grammar Plus U15；10分钟WB精选；10分钟官方U15口试；5分钟记录 | WB首次结果；个人时间线短写；口试五维分；复习日期 |
+| `IC5-L0-U15-D1` | SB印刷100-101 / PDF106-107 | 8分钟旧知提取；12分钟出生/年份；15分钟基于A01-A03的来源约束AI语音首听与核对；15分钟出生信息问答；10分钟无稿说两项背景 | 首听日期/地点结果；无稿背景；未知词；`audio_mode: source_grounded_ai`；`listening_ref: [IC5-L0-U15-A01, IC5-L0-U15-A02, IC5-L0-U15-A03]`；`source_verification`按卡片记录 |
+| `IC5-L0-U15-D2` | SB印刷102 / PDF108 | 8分钟提取；17分钟`was/were`与`did`问句；10分钟控制练习；10分钟基于A04-A06的缩写与成长经历听辨；10分钟替换采访；5分钟出口任务 | 首次答案与订正；3组历史问答；发音记录；`audio_mode: source_grounded_ai`；`listening_ref: [IC5-L0-U15-A04, IC5-L0-U15-A05, IC5-L0-U15-A06]`；`source_verification`按卡片记录 |
+| `IC5-L0-U15-D3` | SB印刷103-104 / PDF109-110 | 8分钟提取；12分钟学校/记忆输入；15分钟基于A07-A09的生平细听；15分钟人物传记阅读；10分钟少提示采访 | 首听细节；阅读时间线；采访转写；`audio_mode: source_grounded_ai`；`listening_ref: [IC5-L0-U15-A07, IC5-L0-U15-A08, IC5-L0-U15-A09]`；`source_verification`按卡片记录 |
+| `IC5-L0-U15-D4` | SB印刷105 / PDF111 | 10分钟间隔提取；15分钟基于A10-A11的学校词汇与阅读综合；10分钟Grammar Plus U15；10分钟WB精选；10分钟官方U15口试；5分钟记录 | WB首次结果；个人时间线短写；口试五维分；复习日期；`audio_mode: source_grounded_ai`；`listening_ref: [IC5-L0-U15-A10, IC5-L0-U15-A11]`；`source_verification`按卡片记录 |
 
 ## 测评位置
 
 - 单元口试：`IC5_Intro_OQ_Question_Bank.pdf`的Unit 15分区；评分表`IC5_Intro_OQ_Scoring_Sheet.pdf`。
-- 双单元书面测验：Unit 16后使用`Intro Written_Quiz_U15-16/IC5_Intro_WQ_U15to16.pdf`及同文件夹MP3 Track08；本单元结束时仅登记待测。
+- 双单元检查：完成Unit 16后使用[Progress Check听力卡](../listening/progress-checks.md)中的`IC5-L0-PC15-16-A01`；Unit 15结束时只登记待测。
+- 双单元书面测验：`Intro Written_Quiz_U15-16/IC5_Intro_WQ_U15to16.pdf`的Track08目前只有[Assessment配对元数据](../listening/assessment-audio-index.md)中的`IC5-L0-WQ15-16-A01`，没有公开可呈现的内容卡；听力部分记`audio_mode: none`并跳过、不评分。
 
 ## 个性化工作场景迁移（非教材原文）
 
@@ -52,7 +54,7 @@ learner_status: no_evidence
 
 ## 必须保存的学习证据
 
-- 原版音频首听的日期、地点与生平细节。
+- 已核验课堂音轨首遍的日期、地点与生平细节；每条证据记录`audio_mode: source_grounded_ai`、`listening_ref`和`source_verification`。
 - 一段无稿个人背景和一轮历史采访；一份简短时间线。
 - 控制练习与WB首次/订正结果。
 - 官方U15口试原始分；Unit 16后补充U15-16测验分项。

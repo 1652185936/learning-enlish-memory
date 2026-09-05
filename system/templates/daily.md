@@ -7,7 +7,9 @@ lesson_id: COURSE-ID-UNN-DN
 planned_duration_minutes: 0
 duration_minutes: 0
 counts_as_study_session: false
-audio_mode: original | substitute | none | not_used
+audio_mode: none
+listening_ref: 待确认
+source_verification: not_processed
 ---
 
 # 每日学习记录 — YYYY-MM-DD
@@ -21,7 +23,9 @@ audio_mode: original | substitute | none | not_used
 待确认。只有真实完成的内容才写在这里。
 
 - 实际教材页码：待确认
-- 实际音频/测评：待确认
+- 实际教材听力/测评：待确认
+- 听力记录：只有`listening_ref`已填写且`source_verification`为可用核验状态时，才可将`audio_mode`改为`source_grounded_ai`并记录结果；否则保持`none`、不评分。
+- 来源与边界：AI只能依照内容卡的内容顺序和固定事实重现，不得新增、删减或改变姓名、拼写、数字、地点、事件、答案性细节或答案；`source_grounded_ai`不是出版社原录音。
 - 实际时长：待确认
 
 ## 学习证据
